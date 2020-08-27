@@ -1,6 +1,6 @@
 resource "aws_security_group" "db" {
 	name = "${var.security_group_name}"
-	vpc_id = "vpc-0a50445df57353c63"
+	vpc_id = "vpc-0a50445df57353c63"   #gonna be hard coded
 	description = "Allow Mysql traffic"
 	ingress {
 		description = "Allow mysql"
